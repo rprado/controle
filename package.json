@@ -1,0 +1,13 @@
+{
+    "name": "horariotc-prototipo",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "build:css": "tailwindcss -i ./src/estilo.css -o ./assets/estilo.css --minify"
+    },
+    "devDependencies": {
+        "@tailwindcss/cli": "^4.1.0",
+        "flyonui": "^2.4.0",
+        "tailwindcss": "^4.1.0"
+    }
+}
